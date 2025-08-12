@@ -27,15 +27,18 @@ Users can send data, upload a picture, and instantly generate a personalized QR 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/qr-code-generator-bot.git
-   cd qr-code-generator-bot```
+   cd qr-code-generator-bot
 
 2. **Install dependencies**
-   ```pip install python-telegram-bot python-dotenv qrcode pillow```
+   ```bash 
+   pip install python-telegram-bot python-dotenv qrcode pillow
 3. **Set up environment variables**
-    ```Create a .env file in the project root:
-    API_BOT=your_telegram_bot_token_here```
+    ```bash 
+    Create a .env file in the project root:
+    API_BOT=your_telegram_bot_token_here
 4. **Run the bot**
-   ```python main.py```
+   ```bash 
+   python main.py
 
 ..**📖 Usage**
 Start the bot in Telegram: 
